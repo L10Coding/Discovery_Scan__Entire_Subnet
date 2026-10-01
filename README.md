@@ -53,29 +53,31 @@ _**Completion State:**_ Subnet scan created, targets identified, scan launched, 
 
 ## 4. Scan Progress and Results
 
-**The scan starts running and progress can be seen in Tenable:** ✅
+✅ **The scan starts running and progress can be seen in Tenable:** 
 
 <img width="1000" height="800" alt="status showing scan running" src="Discovery Scan/Scan running.png"/> 
 
 ---
 
-## 5. Scan Completion and Results✅
+## 5. Scan Completion and Results
 
-**Once the scan completes, Tenable marks it as “Completed”:** ✅
+✅ **Once completed, the scan's status updates as `Completed`:** 
 
-![9- Scan Completed](https://github.com/user-attachments/assets/065cfc64-7608-464a-97b4-c278c57f58fa)
+<img width="1000" height="800" alt="status showing scan completed" src="Discovery Scan/scan completed.png"/> 
 
-**View the results to see the assets discovered in the subnet:** ✅
+✅ **View the results to see the assets discovered in the subnet:** 
 
-![10- Results - Assets that were actually discovered](https://github.com/user-attachments/assets/b32e2a61-7b8a-4d0e-930d-c3dd3cd9203a)
+<img width="1000" height="800" alt="scan results" src="Discovery Scan/scan results.png"/> 
 
 ---
 
-## 6. Tagging Discovered Assets✅
+## 6. Tagging Discovered Assets
 
-**In Tenable, go to the asset’s details page to tag it for better management and classification (I don't have permissions to add a tag):** ✅
+✅ **In Tenable, go to the asset’s details page to tag it for better management and classification (Currently, outside the scope of my permissions to add a tag):** 
 
-![11- Tagging Process](https://github.com/user-attachments/assets/fc407ac0-263f-4a30-94c5-16ec368686d9)
+<img width="1000" height="800" alt="how to add tags" src="Discovery Scan/add a tag.png"/> 
+
+---
 
 **Purpose of Tagging in Subnet Discovery Scan
 Tagging in vulnerability management and asset discovery platforms like Tenable serves a crucial role in organizing, categorizing, and managing scanned assets. Here’s why it’s important in the Subnet Discovery Scan you just completed:**
@@ -92,12 +94,13 @@ By tagging assets, you can generate targeted reports for specific groups. If you
 **✅ Contextual Awareness for Response Teams
 Security teams can quickly understand the context of an asset (e.g., what environment it belongs to or what service it runs) by looking at the tags. This helps during incident response, patching, and risk assessments.**
 
-**❌No Owner for Device? Rogue Asset!✅**
+---
 
-**Isolate: Disconnect the rogue device from your network to prevent any unauthorized access.✅**
+**❌No Owner for Device? Is it a rogue asset?✅**
 
-**Investigate: Analyze the device to understand its purpose and security status using network scanning tools.✅**
+**Isolate:** Disconnect the rogue device from your network to prevent any unauthorized access.
 
-**Decide: Follow your organization's security policies to either remove or secure and reintegrate the device.✅**
+**Investigate:** Analyze the device to understand its purpose and security status using network scanning tools.
 
-![R](https://github.com/user-attachments/assets/15a0c50e-9055-44de-9dee-949266ab6f79)
+**Decide:** Follow your organization's security policies to either remove or secure and reintegrate the device.
+
