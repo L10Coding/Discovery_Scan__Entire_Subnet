@@ -15,55 +15,47 @@ _**Completion State:**_ Subnet scan created, targets identified, scan launched, 
 - **Azure Virtual Network** – Source of the subnet for scanning
 - **Internal Network Scanner** – Configured in Tenable
 
-![Screenshot 2025-06-07 111407](https://github.com/user-attachments/assets/8470b8ce-40b4-4b6c-839c-86b3887f4844)
+<img width="1000" height="800" alt="discovery scan diagram" src="Discovery Scan/scan diagram.png"/> 
 
 ---
 
-## 1. Creating the Scan in Tenable✅
+## 1. Creating the Scan in Tenable
 
-**First, we navigate to the scan creation page in Tenable:** ✅
+✅ **First, we navigate to the scan creation page in Tenable:** 
 
-![1-In Tenable we are going to create a scan](https://github.com/user-attachments/assets/cb48323e-e1d1-4f65-9c7a-a343b1289f2b)
+<img width="1000" height="800" alt="creating scan" src="Discovery Scan/Creating the scan.png"/> 
 
-**Select the “Host Discovery” scan template:** ✅
+✅ **Select the `Host Discovery` scan template:** 
 
-![2- Select Host Discovery Scan](https://github.com/user-attachments/assets/5b06a698-fb69-4320-ada9-56daca7066bb)
+<img width="1000" height="800" alt="selecting scan type" src="Discovery Scan/Selecting type.png"/> 
 
 ---
 
 ## 2. Identify Subnet Target in Azure
 
-**In the Azure portal, navigate to the “Virtual Networks” section:** ✅
+✅ **In the Azure portal, navigate to the `Virtual Networks` section and located the specific subnet of your virtual network to scan:**
 
-![3- In Azure go to virtual networks](https://github.com/user-attachments/assets/cb4e1b5a-7b1e-4270-b42b-a7d946d44ed9)
-
-**Locate the specific subnet of your virtual network to scan:** ✅
-
-![4- Copied the Subnet of the Virtual Network from my company](https://github.com/user-attachments/assets/1e03e043-e32b-4e0a-a99b-bf8aff73cde5)
+<img width="1000" height="800" alt="selecting subnet that will be scanned" src="Discovery Scan/Selecting Subnet.png"/> 
 
 ---
 
-## 3. Configuring the Scan in Tenable✅
+## 3. Configuring the Scan in Tenable
 
-**Back in Tenable, edit the scan and name it appropriately:** ✅
+✅ **In the Tenable platform, edit the scan, provide a suitable name, choose the appropriate scanner type, and add the CIDR block (i.e., `10.0.0.0/21`) to the `Targets` section:** 
 
-![5- Editing and Naming the Scan](https://github.com/user-attachments/assets/4ccd1310-3f77-4bb7-af06-c7f72e708781)
+<img width="1000" height="800" alt="configuring scan settings" src="Discovery Scan/Configuring scan settings.png"/> 
 
-**Paste the subnet CIDR block (e.g., `10.0.0.0/21`) into the “Targets” section:** ✅
+✅ **Save and launch the scan:** 
 
-![6- Pasting the Subnet in the Target space](https://github.com/user-attachments/assets/cc241520-fd88-45bd-9e26-7823152c9121)
-
-**Save and launch the scan:** ✅
- 
-![7- Saved and Launched Scan](https://github.com/user-attachments/assets/adfebc7f-613f-483c-ad49-f509527aa814)
+<img width="1000" height="800" alt="save and launch scan" src="Discovery Scan/save and launch scan.png"/> 
 
 ---
 
-## 4. Scan Progress and Results✅
+## 4. Scan Progress and Results
 
 **The scan starts running and progress can be seen in Tenable:** ✅
 
-![8- Scan In Process](https://github.com/user-attachments/assets/f20f6fab-6dba-4eb5-9257-3d5bb96e4aef)
+<img width="1000" height="800" alt="status showing scan running" src="Discovery Scan/Scan running.png"/> 
 
 ---
 
