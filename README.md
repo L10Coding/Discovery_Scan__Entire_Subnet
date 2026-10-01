@@ -79,20 +79,20 @@ _**Completion State:**_ Subnet scan created, targets identified, scan launched, 
 
 ---
 
-**Purpose of Tagging in Subnet Discovery Scan
-Tagging in vulnerability management and asset discovery platforms like Tenable serves a crucial role in organizing, categorizing, and managing scanned assets. Here’s why it’s important in the Subnet Discovery Scan you just completed:**
+**Purpose of Tagging in Subnet Discovery Scan:**
+Tagging in vulnerability management and asset discovery platforms like Tenable serves a crucial role in organizing, categorizing, and managing scanned assets. Here’s why it’s important in the Subnet Discovery Scan you just completed:
 
-**✅ Organizational Clarity
-When you scan large subnets or networks, you might find multiple hosts with different roles (e.g., production servers, testing VMs, personal workstations). Tags help you quickly identify and group these assets based on shared characteristics like hostname, IP address, environment (production, staging, dev), or asset type.**
+**✅ Organizational Clarity**    
+When you scan large subnets or networks, you might find multiple hosts with different roles (e.g., production servers, testing VMs, personal workstations). Tags help you quickly identify and group these assets based on shared characteristics like hostname, IP address, environment (production, staging, dev), or asset type.
 
-**✅ Streamlined Vulnerability Management
-Tagging allows you to filter and prioritize vulnerabilities based on asset importance. For example, a critical vulnerability on a production asset should be addressed faster than one on a test machine. Tagging makes this easier to track.**
+**✅ Streamlined Vulnerability Management**    
+Tagging allows you to filter and prioritize vulnerabilities based on asset importance. For example, a critical vulnerability on a production asset should be addressed faster than one on a test machine. Tagging makes this easier to track.
 
-**✅ Improved Reporting and Automation
-By tagging assets, you can generate targeted reports for specific groups. If your manager wants a report only on critical production assets, tags help you filter that data quickly. You can also integrate tags with automated workflows in security orchestration tools.**
+**✅ Improved Reporting and Automation**    
+By tagging assets, you can generate targeted reports for specific groups. If your manager wants a report only on critical production assets, tags help you filter that data quickly. You can also integrate tags with automated workflows in security orchestration tools.
 
-**✅ Contextual Awareness for Response Teams
-Security teams can quickly understand the context of an asset (e.g., what environment it belongs to or what service it runs) by looking at the tags. This helps during incident response, patching, and risk assessments.**
+**✅ Contextual Awareness for Response Teams**    
+Security teams can quickly understand the context of an asset (e.g., what environment it belongs to or what service it runs) by looking at the tags. This helps during incident response, patching, and risk assessments.
 
 ---
 
